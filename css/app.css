@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(191, 188, 188);
+    overflow-x: hidden;
+}
+
+/*    header   */
+
+#header {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#titulo {
+    
+    color: white;
+    font-weight: 300;
+    font-family: serif;  
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    font-size: 40px;
+}
+#sub {
+    
+    color: white;
+    font-weight: 300;
+    font-family: serif;
+    margin: 0;
+    padding: 5px;
+    font-size: 22px;
+}
+
+/* Menu desplegable  */
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+#menu {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+}
+#menu:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+#menubox {
+    position: absolute;
+    background-color: black;
+    border: solid 1px rgb(255, 255, 255);
+    width: 400px;
+    height: 180px;
+    z-index: 10;
+    top: 38%;
+    left: 34%;
+    font-family: serif;  
+    font-size: 30px;
+}
+#menubox a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#menubox a:hover{
+    color: #c9c9cf;
+}
+#menubox #menudismiss{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+}
+#menubox #menudismiss:hover{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: rgba(255,255,255,0.5);
+    font-weight: bold;
+}
+
+/* preguntas  */
+
+.question {
+    font-size: 30px;
+    margin: 0 5% 20px 5%;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*   botones  */
+
+button {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight:500;
+    width: 210px;
+    height: 35px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 8px;
+}
+
+button p {
+    margin-top: -8px;
+}
+
+button:hover {
+    background-color:white;
+    color: black;
+}
+
+/* */
+
+.quiz-wrapper {
+    position: relative;
+    height: 200px;
+    margin: 30px 0 60px 0;
+}
+
+/*   Contador   */
+#results {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    
+}
+
+#clockdiv {
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{ 
+    padding: 10px;
+    border-radius: 100px; 
+    font-family: 'Quantico', sans-serif;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999)); 
+    display: inline-block; 
+    border: solid 1px #333;
+    width: 100px;
+    height: 100px;
+}
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #333;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.form{
+    color: #242a47;
+    font-weight: bold;
+}
+
+.formLabel {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+}
+
+.formArea {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.formInput {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.formSelect {
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    width: 25%;
+    text-align: center;
+}
+
+
+
+/*   footer   */
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+
+#footer h5 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 9px;
+    font-size: 15px;
+}
+
+#showQstn{
+    text-align: left;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 420px;
+}
+#showQstn label:first-of-type{
+    margin-left: 10px;
+}
+.chk_butn{
+    transform: scale(200%);
+    margin: 10px 30px 5px -20px;
+}
+.wrapper{
+    position: relative;
+    margin: 30px 0 20px 0;
+}
+#footer2{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-shadow: 0px 1px 0px #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6d685d), to(#e3d4cf));
+}
+#footer2 h5{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}

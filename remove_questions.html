@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Back</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css">
+    <script type="text/javascript" src="json/question.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Quiz Bank<br>Remove questions</h1>
+        <span id="menu"></span>
+        <div id="menubox" style="display: none;">
+        <br><a href="quiz_app.html" alt="back to quiz" title="back to quiz"> Back to Quiz </a><br><br>
+        <a href="add_questions.html" alt="add questions" title="add questions"> Add Questions </a>
+        <span id="menudismiss"> X </span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+            <label class="formLabel">Question Bank:</label><br>
+            <!--Add all questions here with check boxes-->
+            <div id="showQstn"></div><br><br>
+            <button id="removeQuestions"><p>Remove Selected Questions</p></button><br><br><br>
+            <button id="saveQuestions"><p>Save Questions</p></button>
+
+    </div>
+    <div id="footer2">
+        <h5>Escrito &copy Copyright November 2022</h5>
+    </div>
+    <script src="js/removequestions.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+data = [
+    {
+            question: "¿Cuántos litros de sangre tiene una persona adulta?",
+            answers:{
+                a: "Tiene entre 2 y 4 litros",
+                b: "Tiene entre 4 y 6 litros",
+                c: "Tiene 10 litros",
+                d: "Tiene 7 litros"
+                },
+            correctAnswer: "b"
+        },    
+        {
+            question: "¿Quién es el autor de la frase -Pienso, luego existo?",
+            answers: {
+                a: "Platón",
+                b: "Galileo Galilei",
+                c: "Descartes",
+                d: "Sócrates"
+                },
+            correctAnswer: "c"
+        },
+        {
+            question: "¿Cuál es el país más grande y el más pequeño del mundo?",
+            answers: {
+                a: "Rusia y Vaticano",
+                b: "China y Nauru",
+                c: "Canadá y Mónaco",
+                d: "Estados Unidos y Malta"
+                },
+            correctAnswer: "a"
+        },
+        {
+            question: "¿Cuál es el grupo de palabras escritas correctamente?",
+            answers: {
+                a: "Metamorfosis, extranjero, diversidac, equilivrio",
+                b: "Metaformosis, estranjero, diversidad, ekilibrio",
+                c: "Metamorfosis, extrangero, dibersidad, equilibrio",
+                d: "Metamorfosis, extranjero, diversidad, equilibrio"
+                },
+            correctAnswer: "d"
+        },
+        {
+            question: "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+            answers: {
+                a: "El Señor de los Anillos",
+                b: "Don Quijote de la Mancha",
+                c: "El Principito",
+                d: "Cien años de Soledad"
+                },
+            correctAnswer: "b"
+        },
+        {
+            question: "¿Cuántos decimales tiene el número pi π?",
+            answers: {
+                a: "2",
+                b: "100",
+                c: "infinitos",
+                d: "200"
+                },
+            correctAnswer: "b"
+        },
+        {
+            question: "La sal común está formada por dos elementos, ¿cuáles son?",
+            answers: {
+                a: "Sodio y potasio",
+                b: "Sodio y cloro",
+                c: "Sodio y carbono",
+                d: "Potasio y cloro"
+                },
+            correctAnswer: "b"
+        },
+        {
+            question: "¿Cuántos jugadores por equipo participan en un partido de voleibol?",
+            answers: {
+                a: "2",
+                b: "3",
+                c: "5",
+                d: "6"
+                },
+            correctAnswer: "d"
+        }
+];
+
+
